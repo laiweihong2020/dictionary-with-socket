@@ -1,0 +1,16 @@
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/Word.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/QueryRequestHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/FirebaseDatabaseHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/HashMapDataHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/ConnectionTestRequesthandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/Param.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/Packet.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/App.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/DatabaseHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/DatabaseQueryObject.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/RemovalRequestHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/AdditionRequestHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/UpdateRequestHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/DatabaseFlag.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/InvalidRequestHandler.java
+/home/lai/Projects/MelbSem12021/multi-threaded-dictionary/SubmissionFolder/server/src/main/java/server/InitialRequestHandler.java

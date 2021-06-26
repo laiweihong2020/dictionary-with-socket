@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" stylesheets="@app/client.css">
+    <MenuBar>
+        <Menu text="File">
+            <items>
+                <MenuItem text="Change Server" onAction="#changeServer"/>
+                <MenuItem text="Ping Server" onAction="#testConnection"/>
+            </items>
+        </Menu>
+    </MenuBar>
+    <TabPane>
+        <Tab text="Add Word">
+            <VBox styleClass="vbox">
+                <children>
+                    <Label text="Word" styleClass="label_padding"/>
+                    <TextField fx:id="addWordInput"/>
+                    <Label text="Meaning        Format:[meaning1.meaning2.meaning3.]" styleClass="label_padding"/>
+                    <TextField fx:id="addMeaningInput" styleClass="textbox_near_button"/>
+                    <Button text="Submit" onAction="#addWord"/>
+                    <Label text="Output" styleClass="label_padding"/>
+                    <TextArea fx:id="addOutputArea"/>
+                </children>
+            </VBox> 
+        </Tab>
+        <Tab text="Get Meaning">
+            <VBox styleClass="vbox">
+                <children>
+                    <Label text="Word" styleClass="label_padding"/>
+                    <TextField fx:id="getWordInput" styleClass="textbox_near_button"/>
+                    <Button text="Submit" onAction="#getMeaning"/>
+                    <Label text="Output" styleClass="label_padding"/>
+                    <TextArea fx:id="getOutputArea"/>
+                </children>
+            </VBox> 
+        </Tab>
+        <Tab text="Delete Word">
+            <VBox styleClass="vbox">
+                <children>
+                    <Label text="Word" styleClass="label_padding"/>
+                    <TextField fx:id="deleteWordInput" styleClass="textbox_near_button"/>
+                    <Button text="Submit" onAction="#deleteWord"/>
+                    <Label text="Output" styleClass="label_padding"/>
+                    <TextArea fx:id="deleteOutputArea"/>
+                </children>
+            </VBox> 
+        </Tab>
+        <Tab text="Update Word">
+            <VBox styleClass="vbox">
+                <children>
+                    <Label text="Word" styleClass="label_padding"/>
+                    <TextField fx:id="updateWordInput"/>
+                    <Label text="Meaning        Format:[meaning1.meaning2.meaning3.]" styleClass="label_padding"/>
+                    <TextField fx:id="updateMeaningInput" styleClass="textbox_near_button"/>
+                    <Button text="Submit" onAction="#updateWord"/>
+                    <Label text="Output" styleClass="label_padding"/>
+                    <TextArea fx:id="updateOutputArea"/>
+                </children>
+            </VBox> 
+        </Tab>
+    </TabPane>
+</VBox>
